@@ -4,7 +4,7 @@ define(["jquery", "underscore", "util/logger", "util/cache"], function($, _, log
             //debug: true,
             template: "templates/quote.html",
             title: "Quote",
-            quote: "NoOp, for no operation, is a computer science for something that does nothing.",
+            quote: "NoOp, for no operation, is a computer science term for something that does nothing.",
             author: "NoOp",
             citation: "//no-op.co.uk"
         },
