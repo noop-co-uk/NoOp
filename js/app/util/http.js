@@ -1,4 +1,10 @@
-define(["jquery", "util/logger"], function($, logger) {
+define([
+    "jquery",
+    "util/logger"
+], function(
+    $,
+    logger
+) {
     var self = {
         config: {
             debug: false
