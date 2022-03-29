@@ -1,7 +1,7 @@
 define(["jquery", "util/logger"], function($, logger) {
     var self = {
         config: {
-            debug: true
+            debug: false
         },
         logger
     };

@@ -1,7 +1,15 @@
-define(["jquery", "util/logger", "util/http"], function($, logger, http) {
+define([
+    "jquery",
+    "util/http",
+    "util/logger"
+], function(
+    $,
+    http,
+    logger
+) {
     var self = {
         config: {
-            debug: true
+            debug: false
         },
         cache: {}
     };

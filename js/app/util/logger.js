@@ -1,4 +1,8 @@
-define(["jquery"], function($) {
+define([
+    "jquery"
+], function(
+    $
+) {
     var self = {
         config: {
             debug: false

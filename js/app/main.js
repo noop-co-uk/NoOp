@@ -1,7 +1,18 @@
-define(["jquery", "util/logger", "component/quote"], function($, logger, quote) {
+define([
+    "jquery",
+    "util/logger",
+    "component/navbar",
+    "component/body"
+], function(
+    $,
+    logger,
+    navbar,
+    body
+) {
    var self = {
        config: {
-           debug: true,
+           debug: false,
+           navbar_selector: "#navbar",
            body_selector: "#body"
        },
        logger
@@ -14,8 +25,8 @@ define(["jquery", "util/logger", "component/quote"], function($, logger, quote) 
         },
         start: function() {
             self.logger.log("main :: start");
-            var $body = $(self.config.body_selector);
-            quote.render($body);
+            navbar.render($(self.config.navbar_selector));
+            body.render($(self.config.body_selector));
         }
    }).__init();
 });

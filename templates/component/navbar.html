@@ -1,0 +1,5 @@
+<nav class="nav nav-pills nav-justified">
+  <% pages.forEach(function(page) { %>
+     <a class="nav-link<% if (page.active) { %> active<% } %>" aria-current="page" href="#<%- page.fragment %>"><%- page.display_name %></a>
+  <% }); %>
+</nav>
