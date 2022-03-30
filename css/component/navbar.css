@@ -1,0 +1,24 @@
+#navbar .navbar-brand {
+    color: #A6E22E;
+}
+
+#navbar .navbar-toggler {
+    border: 2px solid #66D9EF;
+    color: #66D9EF;
+}
+
+#navbar .navbar-brand .foreground {
+    color: #F8F8F2!important;
+}
+
+#navbar .nav-link.active {
+    color: #E6DB74!important;
+}
+
+#navbar .nav-link.active .param {
+    color: #FD971F!important;
+}
+
+#navbar .nav-link.active .foreground {
+    color: #F8F8F2!important;
+}

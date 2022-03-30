@@ -1,0 +1,31 @@
+#quote .fa-circle {
+    font-size: smaller;
+}
+
+#quote .fa-circle.text-success {
+    text-shadow:
+    -0.5px -0.5px 0 darkgreen,  
+     0.5px -0.5px 0 darkgreen,
+    -0.5px  0.1px 0 darkgreen,
+     0.5px  0.1px 0 darkgreen;
+}
+
+#quote .fa-circle.text-warning {
+    text-shadow:
+    -0.5px -0.5px 0 darkgoldenrod,  
+     0.5px -0.5px 0 darkgoldenrod,
+    -0.5px  0.1px 0 darkgoldenrod,
+     0.5px  0.1px 0 darkgoldenrod;
+}
+
+#quote .fa-circle.text-danger {
+    text-shadow:
+    -0.5px -0.5px 0 darkred,  
+     0.5px -0.5px 0 darkred,
+    -0.5px  0.1px 0 darkred,
+     0.5px  0.1px 0 darkred;
+}
+
+#quote .text-white {
+    color: #F8F8F2!important;
+}
