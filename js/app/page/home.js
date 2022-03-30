@@ -4,8 +4,7 @@ define([
     "util/cache",
     "util/logger",
     "component/quote"
-],
-function(
+], function(
     $,
     _,
     cache,

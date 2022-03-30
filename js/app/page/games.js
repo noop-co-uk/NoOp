@@ -2,19 +2,22 @@ define([
     "jquery",
     "underscore",
     "util/cache",
-    "util/logger"
+    "util/logger",
+    "game/snake"
 ], function(
     $,
     _,
     cache,
-    logger
+    logger,
+    snake
 ) {
     var self = {
         config: {
             debug: false,
             display_name: "Games",
             fragment: "games",
-            template: "templates/page/games.html"
+            template: "templates/page/games.html",
+            snake_selector: "#snake"
         },
         logger
     };
@@ -39,6 +42,7 @@ define([
                 $parent.html(template({
                     //
                 }));
+                snake.render($(self.config.snake_selector));
             })
         }
     }).__init();

@@ -1,0 +1,35 @@
+.window .icon {
+    margin-right: 0.1in;
+}
+
+.window .fa-circle {
+    font-size: smaller;
+}
+
+.window .fa-circle.text-success {
+    text-shadow:
+    -0.5px -0.5px 0 darkgreen,  
+     0.5px -0.5px 0 darkgreen,
+    -0.5px  0.1px 0 darkgreen,
+     0.5px  0.1px 0 darkgreen;
+}
+
+.window .fa-circle.text-warning {
+    text-shadow:
+    -0.5px -0.5px 0 darkgoldenrod,  
+     0.5px -0.5px 0 darkgoldenrod,
+    -0.5px  0.1px 0 darkgoldenrod,
+     0.5px  0.1px 0 darkgoldenrod;
+}
+
+.window .fa-circle.text-danger {
+    text-shadow:
+    -0.5px -0.5px 0 darkred,  
+     0.5px -0.5px 0 darkred,
+    -0.5px  0.1px 0 darkred,
+     0.5px  0.1px 0 darkred;
+}
+
+.window .text-white {
+    color: #F8F8F2!important;
+}
