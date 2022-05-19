@@ -2,11 +2,13 @@ define([
     "jquery",
     "util/logger",
     "page/home",
+    "page/news",
     "page/games"
 ], function(
     $,
     logger,
     home,
+    news,
     games
 ) {
     var self = {
@@ -29,6 +31,7 @@ define([
             self.logger.log("pages :: get_navbar_pages");
             return [
                 home,
+                news,
                 games
             ];
         },
@@ -36,6 +39,7 @@ define([
             self.logger.log("pages :: get_all_pages");
             return [
                 home,
+                news,
                 games
             ];
         },
