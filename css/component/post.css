@@ -1,0 +1,8 @@
+.post a {
+    color: #FD971F!important;
+    text-decoration: none;
+}
+
+.post a:hover {
+    color: #E6DB74!important;
+}

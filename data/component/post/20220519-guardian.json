@@ -1,5 +1,5 @@
 {
   "id": "20220519-guardian",
   "title": "Guardian",
-  "body": "Coming soon..."
+  "body": "<p>This week, I read an interesting article about <a href=\"https://deviq.com/design-patterns/guard-clause\" target=\"_blank\">guard clauses <i class=\"fa-solid fa-square-up-right\"></i></a> and learned something new! What I discovered was not the benefit of dropping out of a method early if particular requirements aren't met, although this is very important. I learned that these things I've been writing for years are called 'guard clauses'.</p><p>I find this happens to me a lot. I hear about something new that makes me curious, follow up with research and find that what I learn is just new terminology and not new development techniques. Now don't get me wrong, I don't know everything! I just don't seem that good at learning jargon.</p><p>Anyway, rather than encourage me to review the latest vocab, this inspired me to write my own library for validating method parameters! \"But there's already plenty of libraries out there to choose from for something as mundane as parameter validation. Do we need another one?!\" Well... no.</p><p>But here it is anyway!</p>"
 }
