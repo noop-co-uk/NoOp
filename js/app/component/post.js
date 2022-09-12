@@ -29,7 +29,7 @@ define([
             self.logger.log("post :: render[$parent == " + ($parent ? "{...}" : null) + ", post == " + post + "]");
             window.render($parent, {
                 icon: self.config.icon,
-                title: post.title
+                title: post.title + " - " + post.date
             }, function($content) {
                 cache.get(self.config.template, function(data) {
                     var template = _.template(data);

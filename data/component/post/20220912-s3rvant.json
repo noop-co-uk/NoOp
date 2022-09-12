@@ -1,0 +1,6 @@
+{
+  "id": "202200912-s3rvant",
+  "title": "S3rvant",
+  "date": "2022-09-12",
+  "body": "<p>It's been a while since I posted here, but I have some news! While looking into how I could store data retrieved from APIs with usage limits (e.g. YouTube), I concluded that some sort of server-side storage was unavoidable.</p><p>This is problematic as NoOp is a serverless website. One of the many reasons it was created was to experiment with statically hosted websites, something I am not going to change just for storage. You see, server-side storage requires server-side integration.</p><p>So, with static hosting in mind, I turned to S3. Also, off the back of writing <a href=\"https://github.com/noop-co-uk/Guardian\" target=\"_blank\">Guardian <i class=\"fa-brands fa-github\"></i></a>, I wanted to try out my new parameter validation library. Therefore, I set to work on a project for simplifying communication with S3. My intention is to maybe put it in a lambda one day. Server-side code without the servers. Anyways, one step at a time.</p><p>For now, here it is;</p><p><a href=\"https://github.com/noop-co-uk/S3rvant\" target=\"_blank\">S3rvant - on GitHub <i class=\"fa-brands fa-github\"></i></a></p>"
+}
